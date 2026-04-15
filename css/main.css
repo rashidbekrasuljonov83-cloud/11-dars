@@ -1,0 +1,391 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: 400px;
+  background-image: url(../imgs/Bitmap.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-a {
+  display: flex;
+  gap: 33px;
+}
+
+.menu-a a {
+  font-family: "Commissioner", sans-serif;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.menu-a a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+
+.menu-a a:hover::after {
+  width: 100%;
+}
+.menu-a {
+  display: flex;
+  gap: 33px;
+}
+.img1 {
+  margin-top: -30px;
+  padding-bottom: 28px;
+}
+.sarlavha {
+  padding-bottom: 15px;
+  font-family: "Commissioner", sans-serif;
+}
+.text {
+  color: #7a7a7a;
+  font-family: "Commissioner", sans-serif;
+}
+.bamboo {
+  position: relative;
+  margin-top: -140px;
+
+  border-radius: 8px;
+  background-color: white;
+
+  justify-content: center;
+  width: 750px;
+  height: 269px;
+  text-align: center;
+}
+.container2 {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.btn {
+  border: none;
+  color: white;
+  background-color: #3cb3ab;
+  width: 204px;
+  height: 56px;
+  font-weight: 700;
+  border-radius: 33.5px;
+  font-family: "Commissioner", sans-serif;
+}
+.btn:hover {
+  background-color: #147a73;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.Bookmark {
+  position: relative;
+  width: 174px;
+  height: 56px;
+  font-weight: 700;
+  border-radius: 33.5px;
+  background-color: #ebe8e8;
+  display: flex;
+  padding-left: 50px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Commissioner", sans-serif;
+}
+
+.www:hover {
+  background-color: #707070;
+}
+
+.sss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0 48px;
+}
+.www {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: black;
+}
+.stats-card {
+  position: absolute;
+  background: white;
+  margin-top: 85px;
+  border: 1px solid #eee;
+  padding: 40px;
+  border-radius: 8px;
+  width: 750px;
+}
+
+.stats-row {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.stat-item {
+  flex: 1;
+  font-family: "Commissioner", sans-serif;
+  padding: 0 20px;
+}
+
+.border-left {
+  font-family: "Commissioner", sans-serif;
+  border-left: 1px solid #eee;
+}
+
+.stat-item h2 {
+  font-size: 32px;
+  margin: 0 0 5px 0;
+}
+
+.stat-item p {
+  color: #7a7a7a;
+  margin: 0;
+}
+
+.progress {
+  background: #f4f4f4;
+  height: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: #3cb4ac;
+  height: 100%;
+  border-radius: 10px;
+}
+.about {
+  position: absolute;
+  width: 100%;
+  text-align: start;
+  background-color: white;
+  height: 1197px;
+  top: 525px;
+  padding: 48px;
+}
+.sarlavha2 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: auto;
+}
+.text2 {
+  font-family: "Commissioner", sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+.text3 {
+  font-family: "Commissioner", sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  color: #7a7a7a;
+  padding-top: 25px;
+}
+.stand {
+  width: 634px;
+  height: 248px;
+  margin-top: 40px;
+  padding: 38px 32px;
+  border-radius: 8px;
+  border: 2px solid rgb(204, 201, 201);
+}
+
+.qqq {
+  opacity: 0.4;
+}
+
+.text4 {
+  font-family: "Commissioner", sans-serif;
+  color: #3cb3ab;
+  font-weight: 500;
+}
+.aa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text5 {
+  font-family: "Commissioner", sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 24px;
+  color: #7a7a7a;
+}
+
+.sarlavha3 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: auto;
+}
+.rr {
+  display: flex;
+  align-items: center;
+}
+
+.text6 {
+  font-family: "Commissioner", sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+.tt {
+  width: 157px;
+  height: 48px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: auto;
+  color: white;
+  font-family: "Commissioner", sans-serif;
+  background-color: #3cb3ab;
+  border-radius: 33.5px;
+}
+.tt:hover {
+  background-color: #147a73;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.tt2 {
+  width: 157px;
+  height: 48px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: auto;
+  color: white;
+  font-family: "Commissioner", sans-serif;
+  background-color: #868383;
+  border-radius: 33.5px;
+}
+.wert {
+  display: flex;
+  margin-top: 28px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 300px;
+    background-position: center;
+  }
+
+  .menu {
+    padding: 30px 20px;
+  }
+
+  .bamboo {
+    width: 95%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-top: -100px;
+  }
+
+  .sss {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 20px;
+  }
+
+  .btn,
+  .Bookmark {
+    width: 100%;
+  }
+
+  .stats-card {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    padding: 25px 15px;
+    top: 0;
+  }
+
+  .stats-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .border-left {
+    border-left: none;
+    border-bottom: 1px solid #eee;
+    padding: 0 0 20px 0;
+  }
+
+  .about {
+    position: relative;
+    width: 100%;
+    top: 40px;
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  .stand {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .aa,
+  .wert {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .tt,
+  .tt2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu-a {
+    display: none;
+  }
+
+  .sarlavha {
+    font-size: 1.2rem;
+  }
+
+  .sarlavha3 {
+    font-size: 24px;
+  }
+}
